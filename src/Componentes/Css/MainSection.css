@@ -21,3 +21,8 @@
     margin: 0;
     font-size: 2vw;
 }
+
+#mainSection p{
+    width: 45%;
+    text-align: center;
+}
