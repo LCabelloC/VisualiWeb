@@ -4,7 +4,7 @@ import Persona from './Persona'
 
 const Equipo = () => {
   return (
-    <section className="equipo-section">
+    <section id="teamSection">
         <h2 className="equipo-titulo">Quienes somos</h2>
         <div className="equipo">
         <Persona nombre="Luis Cabello" foto="https://media.licdn.com/dms/image/D4D03AQFFNkjIKpX9sA/profile-displayphoto-shrink_400_400/0/1669633186104?e=1694044800&v=beta&t=FDbV0_47lvOFOrqhi9dAIof2YSPefkmR36zqFb8E_-Q" puesto="CEO" descripcion="Front-End" url="https://www.linkedin.com/in/luiscabellocasquete/" />
