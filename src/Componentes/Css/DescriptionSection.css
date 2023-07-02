@@ -7,10 +7,12 @@
     align-items: center;
     gap: 4%;
 
+    background-color: white;
+
 }
 
-.header-mockup{
-    width: 48%;
+.description-mockup{
+    width: 50%;
     height: 100%;
     background-image: url("../Assets/mockup.png");
     background-repeat: no-repeat;
@@ -19,8 +21,8 @@
 
 }
 
-.header-right{
-    width: 48%;
+.description-right{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
