@@ -1,0 +1,21 @@
+#mainSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.companyLogo{
+    height: 30vh;
+    width: 80vw;
+
+    background-image: url("../Assets/visuali_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#mainSection h1{
+    margin: 0;
+    font-size: 2vw;
+}
