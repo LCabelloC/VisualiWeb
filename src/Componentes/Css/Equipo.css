@@ -1,0 +1,90 @@
+.equipo-section{
+    height: 65vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.equipo-titulo{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    color: var(--logo);
+    text-align: center;
+}
+
+.equipo{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.persona{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.foto{
+    width: 12vw;
+    height: 12vw;
+    background-image: url("https://www.w3schools.com/howto/img_avatar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
+
+.persona-nombre{
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    color: var(--text);
+    text-align: center;
+}
+
+.persona-puesto{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    color: var(--logo);
+    text-align: center;
+}
+
+.persona-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.persona-estudios{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    color: var(--text);
+    text-align: center;
+}
+
+.persona-descripcion{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    color: var(--logo);
+    text-align: center;
+}
