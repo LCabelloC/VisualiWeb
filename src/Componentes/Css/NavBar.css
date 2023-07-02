@@ -1,0 +1,54 @@
+nav{
+    height: 10vh;
+    width: 100vw;
+
+    background-color: var(--nav);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.logo{
+    width: 10%;
+    height: 40%;
+
+    background-image: url("../Assets/VisualiSmallLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.navLinks{
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navLinks ul{
+    width: 70%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.navLinks ul li{
+    list-style: none;
+}
+
+.navLinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.navLinks ul li a:hover, ul li a:focus{
+    color: var(--logo);
+    outline: none;
+}
