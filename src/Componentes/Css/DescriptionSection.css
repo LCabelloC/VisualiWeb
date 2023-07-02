@@ -1,5 +1,5 @@
 #DescriptionSection{
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -12,7 +12,7 @@
 }
 
 .description-mockup{
-    width: 50%;
+    width: 40%;
     height: 100%;
     background-image: url("../Assets/mockup.png");
     background-repeat: no-repeat;
@@ -22,17 +22,17 @@
 }
 
 .description-right{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.header-slogan{
+.description-right h2{
     text-transform: uppercase;
-    font-style: italic;
-    font-size: 4.5rem;
+    width: 90%;
+    font-size: 2.75vw;
     font-weight: 1000;
     letter-spacing: 0.5rem;
     color: var(--logo);
@@ -40,11 +40,12 @@
     margin: 0;
 }
 
-.header-text{
-    font-size: 1.5rem;
+.description-right p{
+    width: 70%;
+    font-size:  1.125rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
-    color: var(--text);
+    color: black;
     text-align: center;
 }
 
