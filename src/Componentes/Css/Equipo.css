@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
+    padding: 5vh 0;
 }
 
 .equipo-titulo {
