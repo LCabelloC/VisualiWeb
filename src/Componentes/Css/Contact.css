@@ -28,6 +28,10 @@
     text-align: left;
 }
 
+.contact-title span {
+    color: var(--logo);
+}
+
 .contact-text {
     font-size: 18px;
     font-weight: 500;
@@ -36,6 +40,10 @@
     color: var(--text);
     text-align: left;
     margin-top: 2rem;
+}
+
+.contact-text span{
+    color: var(--logo);
 }
 
 .contact-right {
