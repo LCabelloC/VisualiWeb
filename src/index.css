@@ -4,6 +4,7 @@
   --back: #282B2E;
   --text: #FFFFFF;
   --extra-color: #E64B4E;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -26,4 +27,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Open Sans', sans-serif;
 }
