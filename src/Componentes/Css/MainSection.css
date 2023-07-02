@@ -26,3 +26,24 @@
     width: 45%;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px){
+    #mainSection{
+        height: 100vh;
+    }
+
+    .companyLogo{
+        height: 15vh;
+        width: 80vw;
+    }
+
+    #mainSection h1{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #mainSection p{
+        width: 80%;
+        font-size: 16px;
+    }
+}
