@@ -31,8 +31,8 @@ const NavBar = () => {
       </div>
       <div className="navLinks">
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">DECUBRE EL SOFTWARE</a></li>
+          <li><a href="#mainSection">HOME</a></li>
+          <li><a href="#DescriptionSection">DESCUBRE EL SOFTWARE</a></li>
           <li><a href="#">¿QUIÉNES SOMOS?</a></li>
           <li><a href="#">FAQ</a></li>
         </ul>
