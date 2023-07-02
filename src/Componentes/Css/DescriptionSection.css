@@ -32,7 +32,7 @@
 .description-right h2{
     text-transform: uppercase;
     width: 90%;
-    font-size: 2.75vw;
+    font-size: 5 vh;
     font-weight: 1000;
     letter-spacing: 0.5rem;
     color: var(--logo);
@@ -63,3 +63,37 @@
     transition: all 0.3s ease-in-out;
 }
 
+.joinButton2 {
+    width: 20%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinButton2 a {
+    text-decoration: none;
+    width: 50%;
+    height: 50%;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--nav);
+
+    font-size: 1vw;
+    font-weight: 400;
+    color: var(--text);
+
+    transition: background-color 0.5s ease;
+}
+
+.joinButton2 a:hover,
+.joinButton2 a:focus {
+    background-color: var(--logo);
+    outline: none;
+}
