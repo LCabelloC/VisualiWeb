@@ -1,18 +1,16 @@
 import './App.css';
-import NavBar from './componentes/Elements/NavBar';
-import MainSection from './componentes/Elements/MainSection';
-import Header from './componentes/Elements/Header';
+import NavBar from './Componentes/Elements/NavBar';
+import Header from './Componentes/Elements/Header';
+import MainSection from './Componentes/Elements/MainSection';
 
 function App() {
   return (
     <>
-    <div className="mainsection-div">
-          <MainSection/>
-    </div>
       <header>
         <NavBar />
       </header>
       <main>
+        <MainSection/>
         <Header />
       </main>
       <footer>
