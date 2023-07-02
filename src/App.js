@@ -1,6 +1,8 @@
 import './App.css';
 import NavBar from './Componentes/Elements/NavBar';
 import MainSection from './Componentes/Elements/MainSection';
+import Contact from './Componentes/Elements/Contact';
+import Equipo from './Componentes/Elements/Equipo';
 import DescriptionSection from './Componentes/Elements/DescriptionSection';
 
 function App() {
@@ -12,6 +14,9 @@ function App() {
       <main>
         <MainSection />
         <DescriptionSection />
+        <Equipo />
+        <Contact />
+        
       </main>
       <footer>
 

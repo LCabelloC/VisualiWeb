@@ -13,3 +13,10 @@ body {
   background-color: var(--back);
   color: var(--text);
 }
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
