@@ -1,9 +1,9 @@
 import './App.css';
 import NavBar from './Componentes/Elements/NavBar';
-import Header from './Componentes/Elements/Header';
 import MainSection from './Componentes/Elements/MainSection';
 import Contact from './Componentes/Elements/Contact';
 import Equipo from './Componentes/Elements/Equipo';
+import DescriptionSection from './Componentes/Elements/DescriptionSection';
 
 function App() {
   return (
@@ -12,10 +12,11 @@ function App() {
         <NavBar />
       </header>
       <main>
-        <MainSection/>
-        <Header />
+        <MainSection />
+        <DescriptionSection />
         <Equipo />
         <Contact />
+        
       </main>
       <footer>
 
