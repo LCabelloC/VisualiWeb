@@ -1,6 +1,6 @@
 .card{
     height: 80%;
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
 
 .cardImg{
     width: 50%;
-    height: 40%;
+    height: 28vh;
 
     background-repeat: no-repeat;
     background-position: center;
