@@ -15,9 +15,6 @@ const DescriptionSection = () => {
             Descubre Visuali y adéntrate en una nueva era.</p>
         </div>
       </div>
-      <div className="joinButton2">
-            <a href="#">ÚNETE</a>
-          </div>
     </section>
   )
 }
