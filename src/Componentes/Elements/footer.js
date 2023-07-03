@@ -5,23 +5,17 @@ const Footer = () => {
     return (
         <footer>
             <div>
-            <div className="contentSection section">
-                    <h4>Secciones</h4>
-                    <a href="#">Home</a>
-                    <a href="#DescriptionSection">Descubre el software</a>
-                    <a href="#teamSection">¿Quienes somos?</a>
-                </div>
-                <div className="contactSection section">
-                    <a href="#"/>
-                    <h4>Contactanos</h4>
-                    <p>visualitv.es@gmail.com</p>
-                </div>
-                <div className="politicsSection section">
-                <h4>Politicas</h4>
-                    <a href="">Política de privacidad</a>
-                </div>
+                <a className="footer-foto" href="#" />
+                <a href="mailto:visualitv.es@gmail.com" className="correo">visualitv.es@gmail.com</a>
+                <h5>© Visuali - 2023</h5>
             </div>
-            <h5>© 2023 - Visuali</h5>
+            <div>
+                <a href="">Política de privacidad</a>
+                <a href="">Términos y condiciones</a>
+            </div>
+
+
+
         </footer>
     )
 }
