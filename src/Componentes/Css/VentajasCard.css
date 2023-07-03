@@ -1,0 +1,36 @@
+.card{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardImg{
+    width: 50%;
+    height: 25%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+}
+
+.card h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    color: var(--logo);
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.card p{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--text);
+    text-align: center;
+}
