@@ -63,6 +63,10 @@
     text-align: center;
 }
 
+.persona a{
+    text-decoration: none;
+}
+
 .nombre-linkedin:hover .persona-nombre {
     color: var(--logo);
 }

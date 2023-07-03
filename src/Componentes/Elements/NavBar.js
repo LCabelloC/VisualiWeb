@@ -15,8 +15,10 @@ const NavBar = () => {
 
       if (scrollPosition >= scrollThreshold) {
         setIsFixed(true);
+        document.documentElement.classList.add('scrolled');
       } else {
         setIsFixed(false);
+        document.documentElement.classList.remove('scrolled');
       }
     };
 
@@ -26,6 +28,14 @@ const NavBar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.documentElement.classList.add('no-scroll');
+    } else {
+      document.documentElement.classList.remove('no-scroll');
+    }
+  }, [isMenuOpen]);
 
   return (
     <nav className={`nav ${isFixed ? "fixed" : ""} ${isMenuOpen ? "menu-open" : ""}`}>

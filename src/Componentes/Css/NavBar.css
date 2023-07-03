@@ -2,18 +2,14 @@ nav {
     height: 10vh;
     width: 90%;
     position: fixed;
-
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
-
     border-radius: 10px;
-
     background-color: var(--nav);
     display: flex;
     justify-content: center;
     align-items: center;
-
     transition: top 0.7s ease, width 0.7s ease;
     z-index: 999;
 }
@@ -22,6 +18,19 @@ nav.fixed {
     width: 100vw;
     top: 0;
     border-radius: 0;
+}
+
+nav.scrolled {
+    height: 7vh;
+}
+
+nav.scrolled .logo a {
+    width: 40px;
+    height: 40px;
+}
+
+nav.scrolled .navLinks ul li a {
+    font-size: 1vw;
 }
 
 .hamburger {
@@ -36,7 +45,6 @@ nav.fixed {
 .logo {
     width: 20%;
     height: 40%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,9 +53,7 @@ nav.fixed {
 .logo a {
     width: 50px;
     height: 50px;
-
     display: block;
-
     background-image: url("../Assets/VisualiSmallLogo.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -57,16 +63,14 @@ nav.fixed {
 .navAll {
     width: 100%;
     height: 100%;
-
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .navLinks {
     width: 75%;
     height: 100%;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -74,11 +78,9 @@ nav.fixed {
 
 .navLinks ul {
     width: 70%;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     text-decoration: none;
 }
 
@@ -100,7 +102,6 @@ ul li a:focus {
 }
 
 .joinButton {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,19 +110,14 @@ ul li a:focus {
 .joinButton a {
     text-decoration: none;
     padding: 15px 40px;
-
     border-radius: 50px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: var(--logo);
-
     font-size: 1vw;
     font-weight: 400;
     color: white;
-
     transition: background-color 0.5s ease;
 }
 
@@ -137,6 +133,7 @@ ul li a:focus {
         color: black;
         font-size: 18px;
     }
+
     nav {
         display: flex;
         justify-content: space-between;
@@ -165,7 +162,6 @@ ul li a:focus {
         pointer-events: none;
         transition: right 0.3s ease, opacity 0.3s ease;
         margin: 0;
-        
     }
 
     .menu-open .navAll {
@@ -174,7 +170,7 @@ ul li a:focus {
         pointer-events: auto;
     }
 
-    .movil-title{
+    .movil-title {
         width: 80%;
         display: flex;
         flex-direction: row;
@@ -190,7 +186,7 @@ ul li a:focus {
         justify-content: flex-start;
     }
 
-    .navLinks ul{
+    .navLinks ul {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -199,7 +195,7 @@ ul li a:focus {
         padding: 0;
     }
 
-    .navLinks ul li a{
+    .navLinks ul li a {
         color: var(--text);
     }
 
@@ -207,7 +203,11 @@ ul li a:focus {
         margin-bottom: 10px;
     }
 
-    .joinButton a{
+    .joinButton a {
         font-size: 18px;
     }
+}
+
+.no-scroll {
+    overflow: hidden;
 }
