@@ -48,6 +48,12 @@
     border-radius: 100%;
 }
 
+.nombre-linkedin {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
 .persona-nombre {
     font-size: 22px;
     font-weight: 700;
@@ -55,6 +61,14 @@
     letter-spacing: 0.1rem;
     color: var(--text);
     text-align: center;
+}
+
+.nombre-linkedin:hover .persona-nombre {
+    color: var(--logo);
+}
+
+.nombre-linkedin:hover .linkedin{
+    fill: var(--logo);
 }
 
 .persona-puesto {
