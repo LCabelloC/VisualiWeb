@@ -36,6 +36,7 @@ nav.scrolled .navLinks ul li a {
 .hamburger {
     display: none;
     cursor: pointer;
+    margin-right: 15px;
 }
 
 .movil-title {
