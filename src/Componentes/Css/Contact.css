@@ -42,6 +42,12 @@
     margin-top: 2rem;
 }
 
+.contact-form .contact-text{
+    width: 86%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
 .contact-text span{
     color: var(--logo);
 }
