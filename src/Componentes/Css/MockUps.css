@@ -60,3 +60,31 @@
     letter-spacing: 0.1rem;
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 600px){
+    #MockUps{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .img{
+        height: 30vh;
+    }
+
+    .content{
+        width: 90%;
+        height: 30vh;
+    }
+
+    .content h3{
+        font-size: 25px;
+    }
+
+    .content p{
+        font-size: 16px;
+    }
+
+    .img2{
+        grid-area: 4 / 1 / 5 / 2;
+    }
+}
