@@ -5,7 +5,6 @@ import Contact from './Componentes/Elements/Contact';
 import Equipo from './Componentes/Elements/Equipo';
 import DescriptionSection from './Componentes/Elements/DescriptionSection';
 import VentajasSection from './Componentes/Elements/VentajasSection';
-import MockUpsSection from './Componentes/Elements/MockUpsSection';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <MainSection />
         <DescriptionSection />
         <VentajasSection/>
-        <MockUpsSection/>
         <Equipo />
         <Contact />
       </main>
