@@ -6,6 +6,7 @@ import Equipo from './Componentes/Elements/Equipo';
 import DescriptionSection from './Componentes/Elements/DescriptionSection';
 import VentajasSection from './Componentes/Elements/VentajasSection';
 import MockUpsSection from './Componentes/Elements/MockUpsSection';
+import Footer from './Componentes/Elements/footer';
 
 function App() {
   return (
@@ -21,9 +22,7 @@ function App() {
         <Equipo />
         <Contact />
       </main>
-      <footer>
-
-      </footer>
+      <Footer/>
     </>
   );
 }
