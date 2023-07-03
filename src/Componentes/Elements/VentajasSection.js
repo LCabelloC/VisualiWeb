@@ -2,7 +2,9 @@ import React from "react";
 import VentajasCard from "./VentajasCard";
 import "../Css/Ventajas.css";
 
-import SmallLogo from "../Assets/VisualiSmallLogo.png"
+import Confi from "../Assets/configuration.png";
+import ai from "../Assets/AI.png";
+import allIn1 from "../Assets/allIn1.png";
 
 const VentajasSection = () => {
 
@@ -12,18 +14,29 @@ const VentajasSection = () => {
             <div className="cardSection">
 
                 <VentajasCard
-                img={SmallLogo}
+                img={Confi}
                 title="FÁCIL DE CONFIGURAR"
-                description="Experimenta la revolución de la personalización visual con
-                Visuali: ¡configuración en menos de 1 minuto! Con nuestra plataforma
-                innovadora, podrás transformar tu pantalla a tu gusto de forma rápida y sencilla.
-                Descubre la libertad de ver exactamente lo que deseas en un abrir y cerrar de ojos.
-                Olvídate de configuraciones complicadas y sumérgete en una experiencia visual
-                cautivadora al instante. ¡Visuali te ofrece una configuración fácil y rápida para
-                que disfrutes de una experiencia visual personalizada en tiempo récord!"/>
+                description="Revive la revolución visual con Visuali: ¡configuración en
+                segundos! Transforma tu pantalla de manera sencilla y rápida. Disfruta
+                la libertad de ver lo que deseas al instante. Olvídate de complicaciones
+                y sumérgete en una experiencia cautivadora. Visuali: ¡configuración fácil
+                para una experiencia visual personalizada en récord!"/>
 
-                <VentajasCard img={SmallLogo} title="ALL IN ONE" description="a"/>
-                <VentajasCard img={SmallLogo} title="INTELIGENCIA ARTIFICIAL" description="a"/>
+                <VentajasCard
+                img={allIn1}
+                title="ALL IN ONE"
+                description="Descubre la comodidad del all in one con Visuali: todo en un
+                solo lugar. Simplifica tu proceso creativo, maximiza tu productividad.
+                Personaliza, diseña y experimenta sin complicaciones. Todo al alcance de
+                tu mano con Visuali."/>
+
+                <VentajasCard
+                img={ai}
+                title="INTELIGENCIA ARTIFICIAL"
+                description="Descubre la magia de la inteligencia artificial con Visuali. Recibe
+                recomendaciones personalizadas y comparte experiencias resumidas. Conéctate con un
+                nuevo mundo de posibilidades gracias a la IA de Visuali."/>
+
             </div>
 
         </section>
