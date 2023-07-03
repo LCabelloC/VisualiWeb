@@ -24,6 +24,15 @@ nav.fixed {
     border-radius: 0;
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.movil-title {
+    display: none;
+}
+
 .logo {
     width: 20%;
     height: 40%;
@@ -45,8 +54,17 @@ nav.fixed {
     background-position: center;
 }
 
+.navAll {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navLinks {
-    width: 60%;
+    width: 75%;
     height: 100%;
 
     display: flex;
@@ -82,8 +100,6 @@ ul li a:focus {
 }
 
 .joinButton {
-    width: 20%;
-    height: 100%;
 
     display: flex;
     justify-content: center;
@@ -92,8 +108,7 @@ ul li a:focus {
 
 .joinButton a {
     text-decoration: none;
-    width: 50%;
-    height: 50%;
+    padding: 15px 40px;
 
     border-radius: 50px;
 
@@ -115,4 +130,84 @@ ul li a:focus {
     background-color: white;
     color: var(--logo);
     outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navLinks ul li a {
+        color: black;
+        font-size: 18px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5vw;
+        width: 80%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navAll {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--back);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 9999;
+        opacity: 0;
+        pointer-events: none;
+        transition: right 0.3s ease, opacity 0.3s ease;
+        margin: 0;
+        
+    }
+
+    .menu-open .navAll {
+        right: 0;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .movil-title{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--logo);
+    }
+
+    .navLinks {
+        width: 80%;
+        height: unset;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .navLinks ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .navLinks ul li a{
+        color: var(--text);
+    }
+
+    .menu-open .navLinks ul li {
+        margin-bottom: 10px;
+    }
+
+    .joinButton a{
+        font-size: 18px;
+    }
 }
