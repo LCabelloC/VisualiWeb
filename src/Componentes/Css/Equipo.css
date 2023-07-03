@@ -16,7 +16,6 @@
     margin: 0;
     letter-spacing: 0.1rem;
     color: var(--logo);
-    text-align: center;
 }
 
 .equipo {
@@ -107,6 +106,42 @@
     letter-spacing: 0.1rem;
     color: var(--logo);
     text-align: center;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.line1{
+    width: 40%;
+    height: 28%;
+
+    background-color: var(--logo);
+}
+
+.line2{
+    width: 60%;
+    height: 28%;
+
+    background-color: var(--logo);
+}
+
+.line3{
+    width: 80%;
+    height: 28%;
+
+    background-color: var(--logo);
+}
+
+.decoration{
+    width: 5%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* Movil */
