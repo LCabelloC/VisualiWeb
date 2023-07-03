@@ -1,10 +1,10 @@
 #mainSection{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
-
+    height: 75vh;
+    padding: 10vh 0 5vh 0;
 }
 
 .companyLogo{
@@ -27,6 +27,40 @@
     text-align: center;
 }
 
+.joinButton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinButton2 a {
+
+    padding: 15px 40px;
+    text-decoration: none;
+    width: 50%;
+    height: 50%;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--nav);
+
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text);
+
+    transition: background-color 0.5s ease;
+}
+
+.joinButton2 a:hover,
+.joinButton2 a:focus {
+    background-color: var(--logo);
+    outline: none;
+}
+
 @media only screen and (max-width: 600px){
     #mainSection{
         height: 100vh;
@@ -45,5 +79,34 @@
     #mainSection p{
         width: 80%;
         font-size: 16px;
+    }
+
+    .joinButton2 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .joinButton2 a {
+
+        padding: 20px 40px;
+        text-decoration: none;
+        width: 50%;
+        height: 50%;
+
+        border-radius: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: var(--nav);
+
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--text);
+
+        transition: background-color 0.5s ease;
     }
 }
