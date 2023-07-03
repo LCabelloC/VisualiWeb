@@ -14,7 +14,7 @@ const MainSection = () => {
             </p>
 
             <div className="joinButton2">
-                <a href="#">ÚNETE</a>
+                <a href="#contact">ÚNETE</a>
             </div>
         </section>
     )
