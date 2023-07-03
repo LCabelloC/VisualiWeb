@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 75vh;
+    height: 85vh;
     padding: 10vh 0 5vh 0;
 }
 
@@ -25,6 +25,10 @@
 #mainSection p{
     width: 45%;
     text-align: center;
+}
+
+#mainSection p span{
+    color: var(--logo);
 }
 
 .joinButton2 {

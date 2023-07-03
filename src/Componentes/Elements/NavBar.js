@@ -32,7 +32,7 @@ const NavBar = () => {
       <div className="navLinks">
         <ul>
           <li><a href="#mainSection">HOME</a></li>
-          <li><a href="#DescriptionSection">DECUBRE EL SOFTWARE</a></li>
+          <li><a href="#DescriptionSection">DESCUBRE EL SOFTWARE</a></li>
           <li><a href="#teamSection">¿QUIÉNES SOMOS?</a></li>
           <li><a href="#">FAQ</a></li>
         </ul>

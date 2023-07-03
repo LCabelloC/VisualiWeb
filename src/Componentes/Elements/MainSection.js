@@ -6,11 +6,11 @@ const MainSection = () => {
         <section id="mainSection">
             <div className="companyLogo" />
             <h1>TRANSMISIONES DE VIDEO PERSONALIZADAS</h1>
-            <p>VISUALI te ofrece una experiencia de visualización digital sin igual. Personaliza tus
-                pantallas, elige tu contenido favorito y conecta con las personas que más te importan.
-                Nuestra inteligencia artificial te sorprenderá con recomendaciones personalizadas y
-                resúmenes instantáneos. Descubre una nueva forma de ver contenido digital con Visuali.
-                ¡Únete ahora y abre tus ojos a un mundo de posibilidades visuales!
+            <p><span>VISUALI</span> te ofrece una experiencia de visualización digital sin igual. <span>Personaliza</span> tus
+                pantallas, <span>elige</span> tu contenido favorito y <span>conecta</span> con las personas que más te importan.
+                Nuestra <span>inteligencia artificial</span> te sorprenderá con <span>recomendaciones personalizadas</span> y
+                <span>resúmenes instantáneos</span>. Descubre una nueva forma de ver contenido digital con Visuali.
+                ¡<span>Únete ahora</span> y abre tus ojos a un mundo de posibilidades visuales!
             </p>
 
             <div className="joinButton2">

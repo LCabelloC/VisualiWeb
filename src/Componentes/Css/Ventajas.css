@@ -1,0 +1,31 @@
+#ventajasSection{
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardSection{
+    width: 90%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+
+    justify-items: center;
+    align-items: center;
+}
+
+#ventajasSection h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    color: var(--logo);
+    text-align: center;
+    margin-top: 50px;
+}
