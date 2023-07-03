@@ -3,7 +3,7 @@ import "../Css/Contact.css";
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <section id="contact">
             <div className="contact-left">
                 <div className="contact-left-content">
                     <h2 className="contact-title">ÚNETE AL <span>CAMBIO</span></h2>
@@ -25,7 +25,7 @@ const Contact = () => {
                     <button className="contact-button">Únete</button>
                 </form>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -49,14 +49,14 @@ const NavBar = () => {
         </div>
         <div className="navLinks">
           <ul>
-            <li><a href="#mainSection">HOME</a></li>
-            <li><a href="#DescriptionSection">DESCUBRE EL SOFTWARE</a></li>
-            <li><a href="#teamSection">¿QUIÉNES SOMOS?</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li onClick={() => setIsMenuOpen(false)}><a href="#mainSection">HOME</a></li>
+            <li onClick={() => setIsMenuOpen(false)}><a href="#DescriptionSection">DESCUBRE EL SOFTWARE</a></li>
+            <li onClick={() => setIsMenuOpen(false)}><a href="#teamSection">¿QUIÉNES SOMOS?</a></li>
+            <li onClick={() => setIsMenuOpen(false)}><a href="#">FAQ</a></li>
           </ul>
         </div>
-        <div className="joinButton">
-          <a href="#">ÚNETE</a>
+        <div className="joinButton" onClick={() => setIsMenuOpen(false)}>
+          <a href="#contact">ÚNETE</a>
         </div>
       </div>
 
