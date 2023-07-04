@@ -20,7 +20,7 @@ body {
   font-family: 'Avenir', sans-serif;
   background-color: var(--back);
   color: var(--text);
-  background-image: url('./Componentes/Assets/texture2.png');
+  background-image: url('./Componentes/Assets/texture2.webp');
 }
 
 main {

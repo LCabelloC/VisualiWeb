@@ -2,9 +2,9 @@ import React from "react";
 import VentajasCard from "./VentajasCard";
 import "../Css/Ventajas.css";
 
-import Confi from "../Assets/configuration.png";
-import ai from "../Assets/AI.png";
-import allIn1 from "../Assets/allIn1.png";
+import Confi from "../Assets/configuration.webp";
+import ai from "../Assets/ai.webp";
+import allIn1 from "../Assets/allin1.webp";
 
 const VentajasSection = () => {
 
