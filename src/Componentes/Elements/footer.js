@@ -10,8 +10,8 @@ const Footer = () => {
                 <h5>© Visuali - 2023</h5>
             </div>
             <div>
-                <a href="">Política de privacidad</a>
-                <a href="">Términos y condiciones</a>
+                <a href="/privacidad.pdf" target="_blank" rel="noopener noreferrer">Política de privacidad</a>
+                <a href="/terminos-condiciones.pdf" target="_blank" rel="noopener noreferrer">Términos y condiciones</a>
             </div>
 
 
