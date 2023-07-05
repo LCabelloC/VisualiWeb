@@ -1,116 +1,143 @@
-#mainSection{
+#mainSection {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     height: 85vh;
     padding: 10vh 0 5vh 0;
-}
-
-.companyLogo{
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  .companyLogo {
     height: 30vh;
     width: 80vw;
-
     background-image: url("../Assets/visuali-logo.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-}
-
-#mainSection h1{
+    animation: slide-up 1s ease-in-out;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  #mainSection h1 {
     margin: 0;
     font-size: 2vw;
-}
-
-#mainSection p{
+    animation: slide-up 1s ease-in-out;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  #mainSection p {
     width: 45%;
     text-align: center;
-}
-
-#mainSection p span{
+    animation: slide-up 1s ease-in-out;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  #mainSection p span {
     color: var(--logo);
-}
-
-.joinButton2 {
+  }
+  
+  .joinButton2 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.joinButton2 a {
-
+  }
+  
+  .joinButton2 a {
     padding: 15px 40px;
     text-decoration: none;
     width: 50%;
     height: 50%;
-
     border-radius: 50px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: var(--nav);
-
     font-size: 14px;
     font-weight: 400;
     color: var(--text);
-
     transition: background-color 0.5s ease;
-}
-
-.joinButton2 a:hover,
-.joinButton2 a:focus {
+    animation: slide-up 1s ease-in-out;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .joinButton2 a:hover,
+  .joinButton2 a:focus {
     background-color: var(--logo);
     outline: none;
-}
-
-@media only screen and (max-width: 600px){
-    #mainSection{
-        height: 100vh;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #mainSection {
+      height: 100vh;
+      animation: none;
     }
-
-    .companyLogo{
-        height: 15vh;
-        width: 80vw;
+  
+    .companyLogo {
+      height: 15vh;
+      width: 80vw;
+      animation: slide-up 1s ease-in-out;
+      transition: transform 0.5s ease, opacity 0.5s ease;
     }
-
-    #mainSection h1{
-        font-size: 24px;
-        text-align: center;
+  
+    #mainSection h1 {
+      font-size: 24px;
+      text-align: center;
+      animation: slide-up 1s ease-in-out;
+      transition: transform 0.5s ease, opacity 0.5s ease;
     }
-
-    #mainSection p{
-        width: 80%;
-        font-size: 16px;
+  
+    #mainSection p {
+      width: 80%;
+      font-size: 16px;
+      animation: slide-up 1s ease-in-out;
+      transition: transform 0.5s ease, opacity 0.5s ease;
     }
-
+  
     .joinButton2 {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-
+  
     .joinButton2 a {
-
-        padding: 20px 40px;
-        text-decoration: none;
-        width: 50%;
-        height: 50%;
-
-        border-radius: 50px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        background-color: var(--nav);
-
-        font-size: 14px;
-        font-weight: 400;
-        color: var(--text);
-
-        transition: background-color 0.5s ease;
+      padding: 20px 40px;
+      text-decoration: none;
+      width: 50%;
+      height: 50%;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--nav);
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--text);
+      transition: background-color 0.5s ease;
+      animation: slide-up 1s ease-in-out;
+      transition: transform 0.5s ease, opacity 0.5s ease;
     }
-}
+  }
+  
+  /* Animación de aparición gradual */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Animación de desplazamiento hacia arriba */
+  @keyframes slide-up {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
