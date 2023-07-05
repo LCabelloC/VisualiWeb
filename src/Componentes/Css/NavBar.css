@@ -1,6 +1,6 @@
 nav {
     height: 10vh;
-    width: 90%;
+    width: 90vw;
     position: fixed;
     top: 5%;
     left: 50%;
@@ -10,8 +10,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: top 0.7s ease, width 0.7s ease;
     z-index: 999;
+    animation: ampliarAnchura 2s ease-in-out;
 }
 
 nav.fixed {
@@ -59,6 +59,7 @@ nav.scrolled .navLinks ul li a {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    animation: mostrar 2.2s ease-in-out;
 }
 
 .navAll {
@@ -94,6 +95,7 @@ nav.scrolled .navLinks ul li a {
     color: white;
     font-size: 1.2vw;
     font-weight: 600;
+    animation: mostrar 2.2s ease-in-out;
 }
 
 .navLinks ul li a:hover,
@@ -119,6 +121,7 @@ ul li a:focus {
     font-size: 1vw;
     font-weight: 400;
     color: white;
+    animation: mostrar 2.2s ease-in-out;
     transition: background-color 0.5s ease;
 }
 
@@ -211,4 +214,30 @@ ul li a:focus {
 
 .no-scroll {
     overflow: hidden;
+}
+
+@keyframes ampliarAnchura {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+    
+}
+
+@keyframes mostrar {
+    0% {
+        display: none;
+    }
+
+    90% {
+        display: none;
+    }
+
+    100% {
+        display: flex;
+    }
+    
 }

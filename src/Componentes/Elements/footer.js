@@ -7,7 +7,7 @@ const Footer = () => {
             <div>
                 <a className="footer-foto" href="#" />
                 <a href="mailto:visualitv.es@gmail.com" className="correo">visualitv.es@gmail.com</a>
-                <h5>© Visuali - 2023</h5>
+                <p className="copy">© Visuali - 2023</p>
             </div>
             <div>
                 <a href="/privacidad.pdf" target="_blank" rel="noopener noreferrer">Política de privacidad</a>

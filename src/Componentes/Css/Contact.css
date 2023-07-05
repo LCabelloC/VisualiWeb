@@ -200,7 +200,6 @@
     }
 
     .contact-input {
-        background-color: transparent;
         border: 0.2rem solid var(--text);
         border-radius: 0.5rem;
         padding: 10px 0 10px 15px;

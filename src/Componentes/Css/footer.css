@@ -43,12 +43,12 @@ footer p{
     font-size: 15px;
 }
 
-footer h5{
+.copy:hover{
     color: var(--text);
     margin:0;
 }
 
-footer h5:hover{
+.copy:hover{
     color: var(--logo);
 }
 
